@@ -1,0 +1,30 @@
+Source: python-aspy.yaml
+Section: python
+Priority: optional
+Maintainer: Chris Kuehl <ckuehl@ocf.berkeley.edu>
+Build-Depends: debhelper (>= 9~), dh-python, python-all (>= 2.6.6-3~),
+ python-setuptools, python3-all, python3-setuptools
+Standards-Version: 3.9.6
+Homepage: https://github.com/asottile/aspy.yaml
+Vcs-Git: git://github.com/chriskuehl/aspy.yaml
+Vcs-Browser: https://github.com/chriskuehl/aspy.yaml
+
+Package: python-aspy.yaml
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: set of extensions to pyyaml
+ aspy.yaml adds some interesting extensions to pyyaml such as ordered
+ loading/saving of YAML, which is useful for modifying hand-written YAML
+ without clobbering formatting or shuffling keys.
+ .
+ This package installs the library for Python 2.
+
+Package: python3-aspy.yaml
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: set of extensions to pyyaml
+ aspy.yaml adds some interesting extensions to pyyaml such as ordered
+ loading/saving of YAML, which is useful for modifying hand-written YAML
+ without clobbering formatting or shuffling keys.
+ .
+ This package installs the library for Python 3.

@@ -1,0 +1,6 @@
+/*.log
+/files
+/python-aspy.yaml/
+/python3-aspy.yaml/
+/*.debhelper
+/*.substvars

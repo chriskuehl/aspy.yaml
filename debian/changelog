@@ -1,0 +1,5 @@
+python-aspy.yaml (0.2.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #793656)
+
+ -- Chris Kuehl <ckuehl@ocf.berkeley.edu>  Sat, 04 Jul 2015 00:46:39 -0700
