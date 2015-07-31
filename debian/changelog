@@ -1,3 +1,9 @@
+python-aspy.yaml (0.2.1-1~stretch1) stretch; urgency=medium
+
+  * Backport for stretch.
+
+ -- Chris Kuehl <ckuehl@techxonline.net>  Fri, 31 Jul 2015 17:31:23 -0400
+
 python-aspy.yaml (0.2.1-1) unstable; urgency=medium
 
   * Initial release. (Closes: #793656)
