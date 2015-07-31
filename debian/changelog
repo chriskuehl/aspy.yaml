@@ -1,3 +1,9 @@
+python-aspy.yaml (0.2.1-1~wheezy1) wheezy; urgency=medium
+
+  * Backport for wheezy.
+
+ -- Chris Kuehl <ckuehl@techxonline.net>  Fri, 31 Jul 2015 17:32:36 -0400
+
 python-aspy.yaml (0.2.1-1) unstable; urgency=medium
 
   * Initial release. (Closes: #793656)
