@@ -1,3 +1,9 @@
+python-aspy.yaml (0.2.1-1~lucid1) lucid; urgency=medium
+
+  * Backport for lucid.
+
+ -- Chris Kuehl <ckuehl@techxonline.net>  Fri, 31 Jul 2015 17:35:23 -0400
+
 python-aspy.yaml (0.2.1-1) unstable; urgency=medium
 
   * Initial release. (Closes: #793656)
